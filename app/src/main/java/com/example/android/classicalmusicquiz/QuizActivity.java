@@ -217,7 +217,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         builder.setContentTitle(getString(R.string.guess))
                 .setContentText(getString(R.string.notification_text))
                 .setContentIntent(contentPendingIntent)
-                .setSmallIcon(R.drawable.ic_music_note)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                 .addAction(restartAction)
                 .addAction(playPauseAction)
